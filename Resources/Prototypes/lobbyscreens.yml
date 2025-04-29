@@ -108,20 +108,8 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: lobbyBackground
-  id: amos
-  background: /Textures/LobbyScreens/amos.webp
-  name: Atmos
-  artist: asardonicsailor
-
-- type: lobbyBackground
   id: fucktiders.png
   background: /Textures/LobbyScreens/fucktiders.png
-
-- type: lobbyBackground
-  id: clown
-  background: /Textures/LobbyScreens/clown.webp
-  name: Clown
-  artist: Unknown
 
 - type: lobbyBackground
   id: clownassassin
@@ -132,12 +120,6 @@
 - type: lobbyBackground
   id: smartguy.png
   background: /Textures/LobbyScreens/smartguy.png
-
-- type: lobbyBackground
-  id: cqcm
-  background: /Textures/LobbyScreens/cqcm.webp
-  name: CQCM
-  artist: blooodyspy
 
 - type: lobbyBackground
   id: cqcm1
