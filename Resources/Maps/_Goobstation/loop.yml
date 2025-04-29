@@ -12202,29 +12202,6 @@ entities:
     - type: Transform
       pos: 30.5,17.5
       parent: 2
-- proto: BookSpaceLaw
-  entities:
-  - uid: 916
-    components:
-    - type: Transform
-      pos: -13.471112,63.584015
-      parent: 2
-  - uid: 917
-    components:
-    - type: Transform
-      pos: -17.520126,63.538567
-      parent: 2
-  - uid: 918
-    components:
-    - type: Transform
-      pos: -10.15158,63.567593
-      parent: 2
-  - uid: 919
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 22.506857,8.558547
-      parent: 2
 - proto: BookTruth
   entities:
   - uid: 920
@@ -80228,7 +80205,7 @@ entities:
     - type: Transform
       pos: -30.5,40.5
       parent: 2
-- proto: PosterLegitJustAWeekAway
+- proto: PosterLegitKSLeaders
   entities:
   - uid: 12093
     components:

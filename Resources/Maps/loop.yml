@@ -12223,13 +12223,6 @@ entities:
     - type: Transform
       pos: 30.5,17.5
       parent: 2
-- proto: BookSpaceLaw
-  entities:
-  - uid: 1174
-    components:
-    - type: Transform
-      pos: -13.471112,63.584015
-      parent: 2
   - uid: 1958
     components:
     - type: Transform
@@ -80278,7 +80271,7 @@ entities:
     - type: Transform
       pos: -30.5,40.5
       parent: 2
-- proto: PosterLegitJustAWeekAway
+- proto: PosterLegitKSLeaders
   entities:
   - uid: 14728
     components:

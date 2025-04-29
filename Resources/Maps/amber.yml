@@ -24209,13 +24209,6 @@ entities:
     - type: Transform
       pos: -40.5,-0.5
       parent: 2
-- proto: BookSpaceLaw
-  entities:
-  - uid: 497
-    components:
-    - type: Transform
-      pos: -27.30025,13.51906
-      parent: 2
 - proto: BoozeDispenser
   entities:
   - uid: 3703

@@ -5154,7 +5154,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 2.5,-9.5
       parent: 1
-- proto: PosterLegitJustAWeekAway
+- proto: PosterLegitKSLeaders
   entities:
   - uid: 910
     components:

@@ -1,0 +1,66 @@
+- type: entity
+  parent: MNFTBaseMagazine
+  id: MNFTBaseMagazine556
+  name: "5.56×45mm NATO magazine (30 rounds FMJ)"
+  description: A 30-round magazine of 5.56×45mm full metal jacket ammunition.
+  components:
+  - type: Tag
+    tags:
+      - Magazine556
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - Cartridge556
+    proto: Cartridge556
+    capacity: 30
+  - type: Item
+  - type: Sprite
+    sprite: _Manifest/Objects/Weapons/Ammunition/Magazines/556x45.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  parent: MNFTBaseMagazine556
+  id: MNFTBaseMagazine556AP
+  name: "5.56×45mm NATO magazine (30 rounds AP)"
+  description: A 30-round magazine of 5.56×45mm armor-penetrating ammunition. Exceptionally effective against armored targets.
+  components:
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - Cartridge556
+    proto: Cartridge556AP
+    capacity: 30
+
+- type: entity
+  parent: MNFTBaseMagazine556
+  id: MNFTBaseMagazine556Tracer
+  name: "5.56×45mm NATO magazine (30 rounds tracer)"
+  description: A 30-round magazine of 5.56×45mm L110 tracer ammunition. Glows green.
+  components:
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - Cartridge556
+    proto: Cartridge556Tracer
+    capacity: 30
+
+- type: entity
+  parent: MNFTBaseMagazine556
+  id: MNFTBaseMagazine556HE
+  name: "5.56×45mm NATO magazine (30 rounds HE)"
+  description: A 30-round magazine of 5.56×45mm.. explosive ammunition? What the fuck??!
+  components:
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - Cartridge556
+    proto: Cartridge556HE
+    capacity: 30

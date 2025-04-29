@@ -367,7 +367,7 @@ public abstract class SharedRoleSystem : EntitySystem
         if (MindRemoveRole<T>(mindId))
             return true;
 
-        Log.Warning($"Failed to remove role {typeof(T)} from {ToPrettyString(mindId)} : mind does not have role ");
+        // KS14 supresses this warning: Log.Warning($"Failed to remove role {typeof(T)} from {ToPrettyString(mindId)} : mind does not have role ");
         return false;
     }
 

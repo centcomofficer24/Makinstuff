@@ -12275,7 +12275,7 @@ entities:
     - type: Transform
       pos: -2.5,-3.5
       parent: 2
-- proto: PosterLegitJustAWeekAway
+- proto: PosterLegitKSLeaders
   entities:
   - uid: 1707
     components:

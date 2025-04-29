@@ -392,3 +392,13 @@
     itemIconStyle: NoItem
     useDelay: 1
     event: !type:FakeMindShieldToggleEvent
+
+- type: entity
+  id: ActionAbsorbent
+  name: Toggle Sweeper Brushes
+  description: Cleans the floor below you.
+  components:
+  - type: InstantAction
+    useDelay: 1
+    icon: { sprite: Objects/Specific/Janitorial/advmop.rsi, state: advmop }
+    event: !type:AbsorbentActionEvent

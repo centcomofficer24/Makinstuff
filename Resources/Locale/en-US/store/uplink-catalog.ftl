@@ -501,6 +501,9 @@ uplink-chameleon-projector-desc = Disappear in plain sight by creating a hologra
 uplink-revolver-cap-gun-name = Cap Gun
 uplink-revolver-cap-gun-desc = Looks almost like the real thing! Ages 8 and up.
 
+uplink-boombox-name = Boombox
+uplink-boombox-desc = Bluespaces a portable jukebox in. Set an appropriately catastrophic tune and go on a rampage!
+
 uplink-syndicate-stamp-name = Syndicate Rubber Stamp
 uplink-syndicate-stamp-desc = A rubber stamp for stamping important documents.
 

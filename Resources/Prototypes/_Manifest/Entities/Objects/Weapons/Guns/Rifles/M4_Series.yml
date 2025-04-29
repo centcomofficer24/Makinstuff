@@ -1,0 +1,97 @@
+- type: entity
+  name: M4A1 carbine
+  suffix: Manifest
+  parent: [ MNFTBaseWeaponRifle, BaseSecurityContraband ]
+  id: MNFTWeaponRifleM4A1
+  description: A fully automatic model of the M4 carbine. Chambered in 5.56×45mm NATO.
+  components:
+  - type: Clothing
+    sprite: _Manifest/Objects/Weapons/Guns/Rifles/m4_worn.rsi
+    quickEquip: false
+    equipDelay: 1
+    unequipDelay: 2
+    slots:
+    - Back
+    - suitStorage
+  - type: Item
+    shape:
+    - 0,0,4,2
+    sprite: _Manifest/Objects/Weapons/Guns/Rifles/m4_worn.rsi
+  - type: Sprite
+    sprite: _Manifest/Objects/Weapons/Guns/Rifles/m4.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+    equipDelay: 0.8
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Gun
+    selectedMode: SemiAuto
+    availableModes:
+      - FullAuto
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/_Manifest/Weapons/Guns/Gunshots/m4.ogg
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/sf_rifle_cock.ogg
+    minAngle: 2
+    maxAngle: 40
+    fireRate: 8.2
+    angleIncrease: 4.5
+    angleDecay: 11.5
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MNFTBaseMagazine556
+        insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/sfrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - Magazine556
+      gun_chamber:
+        name: Chamber
+        startingItem:
+        priority: 1
+        whitelist:
+          tags:
+            - Cartridge556
+
+
+
+# Crates
+
+- type: entity
+  id: CrateArmoryM4A1
+  parent: [ CrateWeaponSecure, BaseSecurityContraband ]
+  name: M4A1 crate
+  description: Contains two powerful automatic M4A1 rifles, along with varying ammunition for each. Requires Armory access to open.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MNFTWeaponRifleM4A1
+        amount: 2
+      - id: MNFTBaseMagazine556
+        amount: 4
+      - id: MNFTBaseMagazine556AP
+        amount: 2
+      - id: MNFTBaseMagazine556HE #lel
+        amount: 2
+
+# Cargo
+
+- type: cargoProduct
+  id: ArmoryM4A1
+  icon:
+    sprite: _Manifest/Objects/Weapons/Guns/Rifles/m4.rsi
+    state: icon
+  product: CrateArmoryM4A1
+  cost: 25000
+  category: cargoproduct-category-name-armory
+  group: market

@@ -234,6 +234,9 @@
         Heat: 0.9
   - type: ExplosionResistance
     damageCoefficient: 0.80
+  - type: Construction
+    graph: MakeshiftArmorGraph
+    node: armor
 
 - type: entity
   parent: ClothingOuterArmorBase

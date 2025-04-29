@@ -93,7 +93,6 @@
       - id: OxygenTankFilled
       - id: NitrogenTankFilled
       - id: HoloprojectorSecurity
-      - id: BookSpaceLaw
       - id: ClothingBackpackElectropack
         amount: 2
       - id: RemoteSignaller
@@ -125,7 +124,6 @@
       - id: RubberStampWarden
       - id: DoorRemoteArmory
       - id: HoloprojectorSecurity
-      - id: BookSpaceLaw
       - id: ClothingBackpackElectropack
         amount: 2
       - id: RemoteSignaller
@@ -162,8 +160,7 @@
         prob: 0.1
       - id: HoloprojectorSecurity
         prob: 0.6
-      - id: BookSpaceLaw
-        prob: 0.5
+
 
 - type: entity
   id: LockerBrigmedicFilled

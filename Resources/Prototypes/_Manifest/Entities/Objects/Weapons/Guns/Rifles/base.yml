@@ -1,0 +1,64 @@
+- type: entity
+  name: Base rifle weapon
+  suffix: Manifest
+  parent: [BaseItem, BaseGunWieldable]
+  id: MNFTBaseWeaponRifle
+  description: A rooty tooty point and shooty.
+  abstract: true
+  components:
+  - type: Sprite
+  - type: Appearance
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Rifles/ak.rsi
+    quickEquip: false
+    equipDelay: 2
+    unequipDelay: 2
+    slots:
+    - Back
+    - suitStorage
+  - type: Gun
+    fireRate: 5
+    selectedMode: FullAuto
+    availableModes:
+      - FullAuto
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/batrifle.ogg
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/sf_rifle_cock.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineLightRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineLightRifle
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeLightRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeLightRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: StaticPrice
+    price: 2400
+  - type: MeleeWeapon
+    damage:
+      types:
+       Blunt: 12
+    angle: 0
+    wideAnimationRotation: 90 # when/if bayonets get added (to rifles) set this to -90
+    soundHit:
+      collection: MetalThud # Goobstation ^

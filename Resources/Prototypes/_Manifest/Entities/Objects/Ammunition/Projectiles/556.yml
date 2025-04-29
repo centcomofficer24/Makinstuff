@@ -1,0 +1,58 @@
+- type: entity
+  id: Bullet556
+  name: bullet
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 18
+
+- type: entity
+  id: Bullet556AP
+  name: bullet
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 16
+        Structural: 10
+    ignoreResistances: false
+    armorPenetration: 0.6
+
+- type: entity
+  id: Bullet556Tracer
+  name: bullet
+  parent: MNFTBaseBulletTracer
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 22
+
+- type: entity
+  id: Bullet556HE #wtf
+  name: bullet
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 15
+        Structural: 60
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 0.7
+    intensitySlope: 0.5
+    totalIntensity: 0.4
+    maxTileBreak: 0
+  - type: IgniteOnCollide
+    fireStacks: 0.5
+  - type: SpawnOnTrigger
+    proto: EffectSpark

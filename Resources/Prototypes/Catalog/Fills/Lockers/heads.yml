@@ -482,7 +482,6 @@
     children:
 #    - id: WeaponEnergyShotgun
     - id: WeaponEnergyGunMultiphase # Goobstation, replace energy shotgun with the X-01 Multiphase.
-    - id: BookSpaceLaw
     - id: BoxEncryptionKeySecurity
     - id: CigarGoldCase
       prob: 0.50
