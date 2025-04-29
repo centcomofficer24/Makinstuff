@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "license": "CC BY-NC-SA 3.0",
+  "copyright": "Taken from Goonstation, at commit https://github.com/goonstation/goonstation/commit/4059e4be90832b02b1228b1bee3db342094e4f1e",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "lion"
+    },
+    {
+      "name": "lion-dead"
+    }
+  ]
+}

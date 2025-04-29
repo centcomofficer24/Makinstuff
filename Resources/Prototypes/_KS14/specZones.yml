@@ -1,0 +1,57 @@
+- type: specialZone
+  id: hell
+  biome: Grasslands
+  mapPath: /Maps/_KS14/hell.yml
+
+
+
+
+
+- type: entity
+  parent: BaseItem
+  id: BaseZoneKey
+  name: strange key
+  description: An old skeleton key.. one to rule them all.
+  suffix: Random
+  components:
+  - type: Sprite
+    sprite: _KS14/SpecZones/Items/key.rsi
+    state: base
+  - type: Item
+    size: Tiny
+  - type: SpecZoneKey
+  - type: Construction
+    graph: randomZoneKeyGraph
+    node: dakey
+
+
+
+- type: construction
+  name: strange key
+  id: randomZoneKey
+  graph: randomZoneKeyGraph
+  startNode: start
+  targetNode: dakey
+  category: construction-category-tools
+  description: "A key to the skies."
+  icon: { sprite: _KS14/SpecZones/Items/key.rsi, state: base }
+  objectType: Item
+
+- type: constructionGraph
+  id: randomZoneKeyGraph
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: dakey
+      steps:
+      - tag: Heart
+        name: heart
+        icon:
+          sprite: Mobs/Species/Human/organs.rsi
+          state: heart-on
+      - material: Steel
+        amount: 2
+        doAfter: 10
+  - node: dakey
+    entity: BaseZoneKey

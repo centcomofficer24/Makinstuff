@@ -57,6 +57,7 @@
   id: Instruments
   recipes:
   - SynthesizerInstrument
+  - Boombox
 
 - type: latheRecipePack
   id: ServiceBoards

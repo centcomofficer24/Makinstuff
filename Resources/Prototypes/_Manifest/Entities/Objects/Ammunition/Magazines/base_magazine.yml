@@ -1,0 +1,31 @@
+- type: entity
+  id: MNFTBaseMagazine
+  name: magazine
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - Cartridge
+    proto: Cartridge
+    capacity: 30
+  - type: AmmoCounter
+  - type: Item
+    size: Small
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: _Manifest/Objects/Weapons/Ammunition/Magazines/556x45.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance

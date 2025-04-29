@@ -1,0 +1,130 @@
+- type: entity
+  name: hell start marker
+  id: HellSpeczoneStartMarker
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+  - type: SpecialZoneSpawn
+    zoneId: hell
+
+- type: entity
+  id: MobCLion
+  parent: BaseMobAsteroid
+  name: lion
+  description: WHAT THE FUCK
+  components:
+  - type: Sprite
+    sprite: _KS14/random/lion.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: lion
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: lion
+      Dead:
+        Base: lion-dead
+  #- type: MovementSpeedModifier
+  #  baseWalkSpeed : 1.5
+  #  baseSprintSpeed : 1.5
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      110: Dead
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+  - type: MeleeWeapon
+    soundHit:
+      path: "/Audio/Weapons/bladeslice.ogg"
+    range: 1
+    attackRate: 1.0
+    damage:
+      types:
+        Slash: 30
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+    blackboard:
+      VisionRadius: !type:Single
+        50
+      AggroVisionRadius: !type:Single
+        50
+
+- type: entity
+  name: Lion Spawner
+  id: SpawnMobLion
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+    - state: lion
+      sprite: _KS14/random/lion.rsi
+  - type: ConditionalSpawner
+    prototypes:
+    - MobCLion
+
+
+
+- type: entity
+  id: BlastDoorSZHell
+  parent: BlastDoor
+  suffix: Autolink, SZ Centcom
+  components:
+  - type: AutoLinkReceiver
+    channel: SZHell
+
+- type: entity
+  id: ConveyorBeltSZHell
+  parent: ConveyorBelt
+  suffix: Autolink, SZ Centcom
+  components:
+  - type: AutoLinkReceiver
+    channel: SZHell
+
+
+
+- type: entity
+  id: TwoWayLeverSZHell
+  parent: TwoWayLever
+  suffix: Autolink, SZ Centcom
+  components:
+  - type: AutoLinkTransmitter
+    channel: SZHell
+
+- type: entity
+  name: Signal Propagator
+  id: SignalPropagatorSZHell
+  parent: MarkerBase
+  suffix: Autolink, SZ Centcom
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: BasicDevice
+  - type: WirelessNetworkConnection
+    range: 1500
+  - type: DeviceLinkSink
+    range: 1500
+  - type: DeviceLinkSource
+    range: 1500
+  - type: SignalPropagator
+  - type: AutoLinkTransmitter
+    channel: SZHell
+
+- type: entity
+  name: Signal Propagator
+  id: SignalPropagatorSZHellConveyor
+  parent: SignalPropagatorSZHell
+  suffix: Autolink, SZ Centcom Belts
+  components:
+  - type: SignalPropagator
+    highSourcePorts:
+    - On
+    lowSourcePorts:
+    - Off

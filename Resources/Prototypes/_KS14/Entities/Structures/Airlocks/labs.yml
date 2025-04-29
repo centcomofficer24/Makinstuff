@@ -1,0 +1,8 @@
+- type: entity
+  parent: Airlock
+  id: AirlockLabs
+  name: bulkhead
+  suffix: Hell
+  components:
+  - type: Sprite
+    sprite: _KS14/Structures/Airlocks/labs.rsi

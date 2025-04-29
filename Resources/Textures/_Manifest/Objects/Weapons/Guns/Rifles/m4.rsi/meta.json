@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "license": "Apache-2.0",
+    "copyright": "Made by LaCumbiaDelCoronavirus.",
+    "size": {
+        "x": 64,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "icon"
+        },
+        {
+            "name": "base"
+        },
+        {
+            "name": "bolt-open"
+        },
+        {
+            "name": "mag-0"
+        },
+        {
+            "name": "inhand-left"
+        },
+        {
+            "name": "inhand-right"
+        }
+    ]
+}

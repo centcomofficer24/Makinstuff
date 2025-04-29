@@ -77,7 +77,6 @@
       - id: BoxSechud
 #      - SecBelt
 #      - SecGasmask
-#      - SpacelawBook
 
 - type: entity
   id: CrateRestraints
