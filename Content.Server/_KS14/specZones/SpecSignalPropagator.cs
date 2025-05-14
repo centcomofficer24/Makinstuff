@@ -1,8 +1,8 @@
 using Content.Server.DeviceLinking.Components;
-using Content.Server.DeviceLinking.Events;
 using Content.Server.DeviceLinking.Systems;
 using Content.Server.DeviceNetwork;
 using Content.Shared.DeviceLinking;
+using Content.Shared.DeviceLinking.Events;
 using Robust.Shared.Prototypes;
 
 namespace Content.Server.KS14.SpecZones.Systems;
