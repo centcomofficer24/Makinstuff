@@ -117,7 +117,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 40 # Goobstation - Don't really have to cycle them here, so a moderate nerf over 13 makes sense... not 28 damage what the actual fuck was that?
+        Piercing: 60 # Goobstation - Don't really have to cycle them here, so a moderate nerf over 13 makes sense... not 28 damage what the actual fuck was that?
 
 - type: entity
   id: PelletShotgunBeanbag
@@ -232,8 +232,8 @@
   components:
   - type: ProjectileSpread
     proto: PelletShotgunImprovised
-    count: 10
-    spread: 45
+    count: 15
+    spread: 35
 
 - type: entity
   id: PelletShotgunTranquilizer
@@ -322,7 +322,7 @@
     damage:
       types:
         Radiation: 10
-        Piercing: 10
+        Piercing: 30
 
 - type: entity
   id: PelletShotgunUraniumSpread
