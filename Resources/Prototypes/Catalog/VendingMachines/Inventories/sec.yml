@@ -62,6 +62,8 @@
     CartridgeSaline: 4
     CartridgeBicaridine: 4
     CartridgeDermaline: 4 # Goobstation - end
+    ClothingOuterArmorRiot: 3 #KS
+    ClothingHeadHelmetRiot: 3
   # security officers need to follow a diet regimen!
   contrabandInventory:
     WeaponMeleeNeedle: 2
