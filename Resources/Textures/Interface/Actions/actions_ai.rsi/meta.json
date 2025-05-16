@@ -48,6 +48,12 @@
 		},
 		{
 			"name": "door_overcharge_off"
+		},
+        {
+			"name": "command_on"
+		},
+        {
+			"name": "command_off"
 		}
 	]
 }

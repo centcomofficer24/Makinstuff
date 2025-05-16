@@ -31,3 +31,6 @@ toggle-light = Toggle light
 ai-device-not-responding = Device is not responding
 
 ai-consciousness-download-warning = Your consciousness is being downloaded.
+
+ai-command-on = Command
+ai-command-off = Stop commanding
