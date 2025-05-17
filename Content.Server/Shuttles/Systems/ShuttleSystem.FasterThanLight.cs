@@ -313,16 +313,18 @@ public sealed partial class ShuttleSystem
             return false;
         }
 
+        /*
         if (TryComp<PhysicsComponent>(shuttleUid, out var shuttlePhysics))
         {
 
             // Too large to FTL
-            if (FTLMassLimit > 0 &&  shuttlePhysics.Mass > FTLMassLimit)
+            if (FTLMassLimit > 0 && shuttlePhysics.Mass > FTLMassLimit)
             {
                 reason = Loc.GetString("shuttle-console-mass");
                 return false;
             }
         }
+        */
 
         if (HasComp<PreventPilotComponent>(shuttleUid))
         {
