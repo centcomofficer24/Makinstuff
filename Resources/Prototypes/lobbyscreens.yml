@@ -1,129 +1,212 @@
-# SPDX-FileCopyrightText: 2022 Moony <moonheart08@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 hubismal <47284081+hubismal@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 keronshb <54602815+keronshb@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2022 moonheart08 <moonheart08@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 AJCM <AJCM@tutanota.com>
-# SPDX-FileCopyrightText: 2024 Alekshhh <44923899+Alekshhh@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Alex Evgrashin <aevgrashin@yandex.ru>
-# SPDX-FileCopyrightText: 2024 Alex Pavlenko <diraven@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Alice "Arimah" Heurlin <30327355+arimah@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 ArkiveDev <95712736+ArkiveDev@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 BeeRobynn <robynthewarcrime@proton.me>
-# SPDX-FileCopyrightText: 2024 Boaz1111 <149967078+Boaz1111@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Brandon Hu <103440971+Brandon-Huu@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 CMDR-Piboy314 <92357316+CMDR-Piboy314@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Chief-Engineer <119664036+Chief-Engineer@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Cojoke <83733158+Cojoke-dot@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 DieselMohawk <gavin.drinka@gmail.com>
-# SPDX-FileCopyrightText: 2024 Doomsdrayk <robotdoughnut@comcast.net>
-# SPDX-FileCopyrightText: 2024 DrEnzyme <DrEnzyme@gmail.com>
-# SPDX-FileCopyrightText: 2024 DrSmugleaf <10968691+DrSmugleaf@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Ed <96445749+TheShuEd@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Elysium206 <151651971+Elysium206@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Emisse <99158783+Emisse@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Eoin Mcloughlin <helloworld@eoinrul.es>
-# SPDX-FileCopyrightText: 2024 Errant <35878406+Errant-4@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Flareguy <78941145+Flareguy@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Floofi <126319569+Shadowtheprotogen546@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Ghagliiarghii <68826635+Ghagliiarghii@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 HS <81934438+HolySSSS@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Hannah Giovanna Dawson <karakkaraz@gmail.com>
-# SPDX-FileCopyrightText: 2024 IProduceWidgets <107586145+IProduceWidgets@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 K-Dynamic <20566341+K-Dynamic@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Kevin Zheng <kevinz5000@gmail.com>
-# SPDX-FileCopyrightText: 2024 Kira Bridgeton <161087999+Verbalase@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Ko4ergaPunk <62609550+Ko4ergaPunk@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 MetalSage <74924875+MetalSage@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 MetalSage <metalsage.official@gmail.com>
-# SPDX-FileCopyrightText: 2024 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Mr. 27 <45323883+Dutch-VanDerLinde@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 MureixloI <132683811+MureixloI@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 PJBot <pieterjan.briers+bot@gmail.com>
-# SPDX-FileCopyrightText: 2024 Partmedia <kevinz5000@gmail.com>
-# SPDX-FileCopyrightText: 2024 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
-# SPDX-FileCopyrightText: 2024 Piras314 <92357316+Piras314@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Plykiya <58439124+Plykiya@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 PoorMansDreams <150595537+PoorMansDreams@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Psychpsyo <60073468+Psychpsyo@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Redfire1331 <125223432+Redfire1331@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Rouge2t7 <81053047+Sarahon@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Snicket <getoutmarutak@gmail.com>
-# SPDX-FileCopyrightText: 2024 Southbridge <7013162+southbridge-fur@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Spanky <scott@wearejacob.com>
-# SPDX-FileCopyrightText: 2024 Spessmann <156740760+Spessmann@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 T-Stalker <43253663+DogZeroX@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Tayrtahn <tayrtahn@gmail.com>
-# SPDX-FileCopyrightText: 2024 Terraspark4941 <terraspark4941@gmail.com>
-# SPDX-FileCopyrightText: 2024 Tristan <traynor123123@gmail.com>
-# SPDX-FileCopyrightText: 2024 Truoizys <153248924+Truoizys@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 TsjipTsjip <19798667+TsjipTsjip@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Ubaser <134914314+UbaserB@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Vasilis <vasilis@pikachu.systems>
-# SPDX-FileCopyrightText: 2024 VeritableCalamity <34698192+Veritable-Calamity@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 WarMechanic <69510347+WarMechanic@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 beck-thompson <107373427+beck-thompson@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 brainfood1183 <113240905+brainfood1183@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 deathride58 <deathride58@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 eoineoineoin <github@eoinrul.es>
-# SPDX-FileCopyrightText: 2024 github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 lzk <124214523+lzk228@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 marbow <152051971+marboww@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 metalgearsloth <comedian_vs_clown@hotmail.com>
-# SPDX-FileCopyrightText: 2024 mhamster <81412348+mhamsterr@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 neutrino <67447925+neutrino-laser@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 nikthechampiongr <32041239+nikthechampiongr@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 osjarw <62134478+osjarw@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 plykiya <plykiya@protonmail.com>
-# SPDX-FileCopyrightText: 2024 redfire1331 <Redfire1331@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Арт <123451459+JustArt1m@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Джексон Миссиссиппи <tripwiregamer@gmail.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2025 Aidenkrz <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2025 Aineias1 <dmitri.s.kiselev@gmail.com>
-# SPDX-FileCopyrightText: 2025 CBozo <165491409+CBozo@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 FaDeOkno <143940725+FaDeOkno@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
-# SPDX-FileCopyrightText: 2025 Jvne <39907509+H2Owe@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 McBosserson <148172569+McBosserson@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Milon <plmilonpl@gmail.com>
-# SPDX-FileCopyrightText: 2025 Piras314 <p1r4s@proton.me>
-# SPDX-FileCopyrightText: 2025 Rouden <149893554+Roudenn@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
-# SPDX-FileCopyrightText: 2025 TheBorzoiMustConsume <197824988+TheBorzoiMustConsume@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Unlumination <144041835+Unlumy@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 coderabbitai[bot] <136622811+coderabbitai[bot]@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 deltanedas <39013340+deltanedas@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 deltanedas <@deltanedas:kde.org>
-# SPDX-FileCopyrightText: 2025 gluesniffler <159397573+gluesniffler@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 gluesniffler <linebarrelerenthusiast@gmail.com>
-# SPDX-FileCopyrightText: 2025 tiderwithagun <notrightnow@gmail.com>
-# SPDX-FileCopyrightText: 2025 username <113782077+whateverusername0@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 whateverusername0 <whateveremail>
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
+- type: lobbyBackground
+  id: 1984hnk.png
+  background: /Textures/LobbyScreens/1984hnk.png
+
+- type: lobbyBackground
+  id: amos.webp
+  background: /Textures/LobbyScreens/amos.webp
+
+- type: lobbyBackground
+  id: cburn.webp
+  background: /Textures/LobbyScreens/cburn.webp
+
+- type: lobbyBackground
+  id: cburn.webp.yml
+  background: /Textures/LobbyScreens/cburn.webp.yml
+
+- type: lobbyBackground
+  id: clown.webp
+  background: /Textures/LobbyScreens/clown.webp
+
+- type: lobbyBackground
+  id: clown.webp.yml
+  background: /Textures/LobbyScreens/clown.webp.yml
+
+- type: lobbyBackground
+  id: clownassassin.webp
+  background: /Textures/LobbyScreens/clownassassin.webp
+
+- type: lobbyBackground
+  id: clownassassin.webp.yml
+  background: /Textures/LobbyScreens/clownassassin.webp.yml
+
+- type: lobbyBackground
+  id: clownhell.webp
+  background: /Textures/LobbyScreens/clownhell.webp
+
+- type: lobbyBackground
+  id: clownhell.webp.yml
+  background: /Textures/LobbyScreens/clownhell.webp.yml
+
+- type: lobbyBackground
+  id: cqcm.webp
+  background: /Textures/LobbyScreens/cqcm.webp
+
+- type: lobbyBackground
+  id: cqcm.webp.yml
+  background: /Textures/LobbyScreens/cqcm.webp.yml
+
+- type: lobbyBackground
+  id: cqcm1.webp
+  background: /Textures/LobbyScreens/cqcm1.webp
+
+- type: lobbyBackground
+  id: cqcm1.webp.yml
+  background: /Textures/LobbyScreens/cqcm1.webp.yml
+
+- type: lobbyBackground
+  id: cqcm2.webp
+  background: /Textures/LobbyScreens/cqcm2.webp
+
+- type: lobbyBackground
+  id: cqcm2.webp.yml
+  background: /Textures/LobbyScreens/cqcm2.webp.yml
+
+- type: lobbyBackground
+  id: cqcm3.webp
+  background: /Textures/LobbyScreens/cqcm3.webp
+
+- type: lobbyBackground
+  id: cqcm3.webp.yml
+  background: /Textures/LobbyScreens/cqcm3.webp.yml
+
+- type: lobbyBackground
+  id: donottouch.webp
+  background: /Textures/LobbyScreens/donottouch.webp
+
+- type: lobbyBackground
+  id: donottouch.webp.yml
+  background: /Textures/LobbyScreens/donottouch.webp.yml
 
 - type: lobbyBackground
   id: engiwherespower.png
   background: /Textures/LobbyScreens/engiwherespower.png
 
 - type: lobbyBackground
+  id: enlist.webp
+  background: /Textures/LobbyScreens/enlist.webp
+
+- type: lobbyBackground
+  id: enlist.webp.yml
+  background: /Textures/LobbyScreens/enlist.webp.yml
+
+- type: lobbyBackground
+  id: foundinghonkers.webp
+  background: /Textures/LobbyScreens/foundinghonkers.webp
+
+- type: lobbyBackground
+  id: foundinghonkers.webp.yml
+  background: /Textures/LobbyScreens/foundinghonkers.webp.yml
+
+- type: lobbyBackground
   id: fucktiders.png
   background: /Textures/LobbyScreens/fucktiders.png
+
+- type: lobbyBackground
+  id: goob.webp
+  background: /Textures/LobbyScreens/goob.webp
+
+- type: lobbyBackground
+  id: goob.webp.yml
+  background: /Textures/LobbyScreens/goob.webp.yml
+
+- type: lobbyBackground
+  id: GoobNukie.webp
+  background: /Textures/LobbyScreens/GoobNukie.webp
+
+- type: lobbyBackground
+  id: GoobNukie.webp.yml
+  background: /Textures/LobbyScreens/GoobNukie.webp.yml
+
+- type: lobbyBackground
+  id: grandtheftgoob.webp
+  background: /Textures/LobbyScreens/grandtheftgoob.webp
+
+- type: lobbyBackground
+  id: grandtheftgoob.webp.yml
+  background: /Textures/LobbyScreens/grandtheftgoob.webp.yml
+
+- type: lobbyBackground
+  id: greytideworldwide.webp
+  background: /Textures/LobbyScreens/greytideworldwide.webp
+
+- type: lobbyBackground
+  id: greytideworldwide.webp.yml
+  background: /Textures/LobbyScreens/greytideworldwide.webp.yml
 
 - type: lobbyBackground
   id: grrgraphics.png
   background: /Textures/LobbyScreens/grrgraphics.png
 
 - type: lobbyBackground
+  id: heretic.webp
+  background: /Textures/LobbyScreens/heretic.webp
+
+- type: lobbyBackground
+  id: heretic.webp.yml
+  background: /Textures/LobbyScreens/heretic.webp.yml
+
+- type: lobbyBackground
+  id: janishootout.webp
+  background: /Textures/LobbyScreens/janishootout.webp
+
+- type: lobbyBackground
+  id: janishootout.webp.yml
+  background: /Textures/LobbyScreens/janishootout.webp.yml
+
+- type: lobbyBackground
+  id: justaweekaway.webp
+  background: /Textures/LobbyScreens/justaweekaway.webp
+
+- type: lobbyBackground
+  id: justaweekaway.webp.yml
+  background: /Textures/LobbyScreens/justaweekaway.webp.yml
+
+- type: lobbyBackground
+  id: lostpai.webp
+  background: /Textures/LobbyScreens/lostpai.webp
+
+- type: lobbyBackground
+  id: lostpai.webp.yml
+  background: /Textures/LobbyScreens/lostpai.webp.yml
+
+- type: lobbyBackground
   id: middlestation.png
   background: /Textures/LobbyScreens/middlestation.png
 
 - type: lobbyBackground
+  id: mime.webp
+  background: /Textures/LobbyScreens/mime.webp
+
+- type: lobbyBackground
+  id: mime.webp.yml
+  background: /Textures/LobbyScreens/mime.webp.yml
+
+- type: lobbyBackground
+  id: reclaimer-nuke.webp
+  background: /Textures/LobbyScreens/reclaimer-nuke.webp
+
+- type: lobbyBackground
+  id: reclaimer-nuke.webp.yml
+  background: /Textures/LobbyScreens/reclaimer-nuke.webp.yml
+
+- type: lobbyBackground
   id: smartguy.png
   background: /Textures/LobbyScreens/smartguy.png
+
+- type: lobbyBackground
+  id: StarGoob.webp
+  background: /Textures/LobbyScreens/StarGoob.webp
+
+- type: lobbyBackground
+  id: StarGoob.webp.yml
+  background: /Textures/LobbyScreens/StarGoob.webp.yml
+
+- type: lobbyBackground
+  id: tideractivities.webp
+  background: /Textures/LobbyScreens/tideractivities.webp
+
+- type: lobbyBackground
+  id: tideractivities.webp.yml
+  background: /Textures/LobbyScreens/tideractivities.webp.yml
 

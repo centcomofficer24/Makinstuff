@@ -384,3 +384,13 @@
   license: "CC-BY-NC-SA-3.0"
   copyright: "Merchant by 3log!"
   source: "https://www.youtube.com/watch?v=EptFeKzXY8Y"
+
+- files: ["blindrage.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Blind Rage by Emarex"
+  source: "https://soundcloud.com/emarexofficial/blind-rage-3rd-edit-volume-fixed"
+
+- files: ["pumptillidie.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Pump Till I Die (remix) by vap0r"
+  source: "https://www.youtube.com/watch?v=cUPpdbW809Y"

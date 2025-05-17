@@ -11,7 +11,7 @@ for item in lobbysongs:
 lobbymusic_cfg.close()
 
 #load jukebox music
-jb_music_path = path.join(script_path, './Resources/Audio/', 'Jukebox')
+jb_music_path = path.join(script_path, './Resources/Audio/', 'Lobby')
 jb_songs = [f for f in listdir(jb_music_path) if path.isfile(path.join(jb_music_path, f)) and ".ogg" in f]
 jb_music_cfg = open(path.join(script_path,"./Resources/Prototypes/Catalog/Jukebox/Standard.yml"), "w")
 for item in jb_songs:
