@@ -54,6 +54,9 @@
 		},
         {
 			"name": "command_off"
+		},
+        {
+			"name": "sync"
 		}
 	]
 }
